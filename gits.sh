@@ -19,4 +19,4 @@ echo "source /usr/share/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlight
 
 echo "source /usr/share/zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> /home/$USER/.zshrc
 
-echo "source /usr/share/zsh-themes/powerlevel10k/powerlevel10k.zsh-theme"
+echo "source /usr/share/zsh-themes/powerlevel10k/powerlevel10k.zsh-theme" >> /home/$USER/.zshrc
