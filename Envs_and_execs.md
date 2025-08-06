@@ -2,13 +2,9 @@ env = AQ_DRM_DEVICES, /dev/dri/card1:/dev/dri/card0 - aqui, definimos quais plac
 
 env = LIBVA_DRIVER_NAME, nvidia - aceleração gráfica baseada em hardware
 
-env = __ GLX_VENDOR_LIBRARY_NAME, nvidia
-
 env = NVD_BACKEND, direct
 
 env = SDL_VIDEO_DRIVER, wayland
-
-env = GDK_BACKEND, wayland
 
 env = CLUTTER_BACKEND, wayland
 
@@ -18,7 +14,7 @@ env = XDG_CURRENT_SESSION, wayland - configs do XDG e do desktop em geral, com o
 
 env = XDG_SESSION_DESKTOP, wayland
 
-env = XCURSOR_THEME, oreo_blue_cursors
+env = XCURSOR_THEME, LyraQ_cursor
 
 env = XCURSOR_SIZE, 25 - configurações de cursores do desktop
 
@@ -37,3 +33,6 @@ exec-once = copyq --start-server
 exec-once = hypridle
 exec-once = hyprpaper
 exec-once = udiskie -A -s -C
+exec-once = dunst
+exec-once = swayosd-server
+exec-once = /usr/lib/hyprpolkitagent/hyprpolkitagent
