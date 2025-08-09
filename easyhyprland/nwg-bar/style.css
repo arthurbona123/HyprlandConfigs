@@ -1,0 +1,45 @@
+* {
+
+	font-family: Cascadia Nerd Font Mono;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+
+window {
+        background: linear-gradient(270deg, #AFDBF5, #FFB3C6);
+		border-radius: 19px;
+}
+
+/* Outer bar container, takes all the window width/height */
+#outer-box {
+	border-radius: 19px;
+	margin: 0px;
+	background: linear-gradient(270deg, #AFDBF5, #FFB3C6);
+}
+
+
+/* Inner bar container, surrounds buttons */
+#inner-box {
+	background: linear-gradient(270deg, #AFDBF5, #FFB3C6);
+	border-radius: 19px;
+	box-shadow: none;
+	border: none;
+	padding: 5px;
+	margin: 2px;
+}
+
+image {
+
+	box-shadow: 0 0 1px rgba(0, 0, 0, 1.0);
+	border-radius: 7px;
+	padding: 0 0 2px 0;
+	margin: 2px 0;
+}
+
+button {
+	background: #AFDBF5;
+	border-radius: 5px;
+	padding: 7px 10px;
+	margin: 8px;
+}

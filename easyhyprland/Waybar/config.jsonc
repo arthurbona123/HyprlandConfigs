@@ -1,0 +1,170 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    // "height": 12, // Waybar height (to be removed for auto height)
+    "width": 1485, // Waybar width
+    // "spacing": 8, // Gaps between modules (4px)
+    "margin": 7,
+    "output": "eDP-1",
+    "on-sigusr1": "toggle",
+    // Choose the order of the modules
+
+    "modules-left": [
+
+	    "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+
+        "hyprland/window"
+
+    ],
+
+    "modules-right": [
+
+        "power-profiles-daemon",
+	    "tray",
+        "backlight",
+        "pulseaudio",
+        "battery",
+        "clock",
+	    "custom/power"
+  ],
+
+  "hyprland/workspaces": {
+
+	"format": "{icon}",
+	"persistent-workspaces": {
+
+	"*":5
+}
+
+},
+
+"hyprland/window": {
+
+    "separate-outputs": true,
+    "justify": "center"
+},
+
+    "tray": {
+
+	    "format": "{icon}",
+        "icon-size": 20,
+        "spacing": 5
+    },
+
+    "clock": {
+    // "timezone": "America/New_York",
+    "tooltip": true,
+    "tooltip-format": "{:%a, %d %b %Y}",
+    "format": "{:%H:%M\n%d/%m/%Y}",
+	"justify": "center",
+	"on-click": "gnome-calendar"
+    },
+
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": "{}% "
+    },
+
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+
+    "backlight": {
+        // "device": "acpi_video1",
+        "tooltip": false,
+        "justify": "center",
+        "reverse-scrolling": true,
+        "format": "{percent}% {icon}",
+        "format-icons": [" ", " ", " ", " ", " ", " "]
+    },
+
+    "battery": {
+
+        "justify": "center",
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+
+        "format": "{capacity}% {icon}",
+        "format-plugged": "{capacity}% 󱐋 ",
+        "format-icons": [" 󱊡 ", " 󱊢 ", " 󱊣 "]
+    },
+
+    "power-profiles-daemon": {
+
+      "justify": "center",
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": " ",
+        "balanced": " ",
+        "power-saver": " "
+      }
+
+    },
+    "network": {
+
+	    "tooltip": true,
+        "tooltip-format": "IP Address: {ipaddr} on {ifname}",
+        "format-wifi": "󰤨  {essid}",
+        "format-ethernet": "  Wired",
+        "format-disconnected": "󰤮  Disconnected",
+        "on-click": "iwgtk"
+	 },
+
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+	    "tooltip": true,
+        "tooltip-format": "{}",
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": "Muted  ",
+        "format-muted": "Muted  ",
+        "format-icons": {
+            "default": [" ", " ", " ", " ", " ", " "]
+        },
+        "on-click": "pavucontrol",
+        "reverse-scrolling": true,
+        "justify": "center"
+    },
+
+    "custom/media": {
+        "format": "{icon} {text}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": " ",
+            "default": "🎜"
+        },
+
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+
+    "custom/power": {
+
+    "justify": "center",
+	"tooltip": false,
+        "format" : "",
+	"on-click": "nwg-bar"
+}
+
+}
