@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=FontBase
+Exec=fontbase --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=fontbase-app
+StartupWMClass=FontBase
+X-AppImage-Version=2.20.7
+Comment=A lightning fast, beautiful and free font manager for designers.
+Categories=Graphics;

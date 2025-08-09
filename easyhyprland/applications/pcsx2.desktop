@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=PCSX2
+GenericName=Run PS2 Games
+Comment=Run PS2 Games
+Exec=/home/arthur/AppImages/pcsx2-v2.4.0-linux-appimage-x64-Qt.AppImage
+Icon=pcsx2
+Terminal=false
+Categories=Games

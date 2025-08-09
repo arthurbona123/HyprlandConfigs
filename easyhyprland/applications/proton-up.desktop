@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ProtonUP Qt
+GenericName=Proton Base
+Comment=Manage Proton and Wine versions
+Exec=/home/arthur/AppImages/ProtonUp-Qt-2.12.0-x86_64.AppImage
+Icon=protonup-qt
+Terminal=false
+Categories=Games;

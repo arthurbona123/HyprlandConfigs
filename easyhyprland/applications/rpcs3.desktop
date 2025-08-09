@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=RPCS3
+GenericName=Run PS3 Games
+Comment=Run PS3 Games
+Exec=/home/arthur/AppImages/rpcs3-v0.0.37-18070-46150322_linux64.AppImage
+Icon=rpcs3
+Terminal=false
+Categories=Games
+

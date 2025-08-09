@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Heroic Games Launcher
+GenericName=Launcher for Epic Games
+Comment=A launcher for Epic Games
+Exec=/home/arthur/AppImages/Heroic-2.17.2-linux-x86_64.AppImage
+Icon=appimagekit-heroic
+Terminal=false
+Categories=Games
