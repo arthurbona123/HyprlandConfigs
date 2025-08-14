@@ -36,3 +36,10 @@ exec-once = udiskie -A -s -C
 exec-once = dunst
 exec-once = swayosd-server
 exec-once = /usr/lib/hyprpolkitagent/hyprpolkitagent
+
+------------------------------------------------------------------------------------------
+
+Para a Steam Flatpak funcionar corretamente com placas de vídeo dedicadas ao invés da integrada, coloque como variáveis de ambiente a serem carregadas por meio do Flatseal:
+
+__NV_PRIME_RENDER_OFFLOAD=1
+__GLX_VENDOR_LIBRARY_NAME=nvidia
