@@ -100,6 +100,7 @@
             "critical": 15
         },
 
+"on-discharging-warning": "dunstify 'Low battery, plug into the AC adapter' && brightnessctl set 30%",
         "format": "{capacity}% {icon}",
         "format-plugged": "{capacity}% 󱐋 ",
 "format-charging": "{capacity}%  󱐋 ",
