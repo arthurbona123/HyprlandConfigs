@@ -6,12 +6,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions
 
 git clone https://github.com/romkatv/powerlevel10k
 
-mv zsh-autosuggestions /usr/share/zsh-plugins
-mv zsh-syntax-highlighting /usr/share/zsh-plugins
-mv powerlevel10k /usr/share/zsh-themes
+sudo mv zsh-autosuggestions /usr/share/zsh-plugins
+sudo mv zsh-syntax-highlighting /usr/share/zsh-plugins
+sudo mv powerlevel10k /usr/share/zsh-themes
 
-usermod -s /usr/bin/zsh root
-vipw
+sudo usermod -s /usr/bin/zsh root
+sudo vipw
 
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
