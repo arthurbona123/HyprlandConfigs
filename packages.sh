@@ -7,7 +7,7 @@ cd yay
 makepkg -si
 
 yay -S google-chrome pycharm-community-edition code epson-inkjet-printer-escpr sonobus reaper sddm-silent-theme fontbase flatseal ttf-cascadia-nerd ttf-bree-serif sane-airscan
-lsp-plugins flatpak firefox kitty udiskie nemo hyprshot hyprland-protocols fuse gcc cmake make qt5ct qt6ct kvantum iwgtk hyprpolkitagent dhcpcd drawing inkscape skanlite gimp vlc virtualbox libreoffice-fresh codeblocks hwinfo vi vim evince nvidia-utils cups cups-browsed pavucontrol blueman brightnessctl copyq system-printer-config mysql gamemode qjackctl pipewire-jack zsh gnu-free-fonts openrgb waybar hypridle hyprlock hyprpaper nwg-bar nwg-look nwg-icon-picker rofi gwenview
+lsp-plugins flatpak firefox kitty udiskie nemo hyprshot hyprland-protocols fuse gcc cmake make qt5ct qt6ct kvantum iwgtk hyprpolkitagent dhcpcd drawing inkscape skanlite gimp vlc virtualbox libreoffice-fresh codeblocks hwinfo vi vim evince nvidia-utils cups cups-browsed pavucontrol blueman brightnessctl copyq system-printer-config mysql gamemode qjackctl pipewire-jack zsh gnu-free-fonts openrgb waybar hypridle hyprlock hyprpaper nwg-bar nwg-look nwg-icon-picker rofi gwenview easyeffects
 
 flatpak install steam mangohud obsidian flatseal
 
