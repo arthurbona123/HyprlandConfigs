@@ -1,6 +1,6 @@
 configuration {
 modes: "window,drun";
-font: "Cascadia Nerd Font Mono 13";
+font: "Cascadia Nerd Font Mono 12";
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
@@ -30,8 +30,8 @@ drun-display-format: "{name} [<span weight='light' size='medium'><i>({generic})<
 /*	drun-url-launcher: "xdg-open";*/
 /*	disable-history: false;*/
 /*	ignored-prefixes: "";*/
-// sort: true;
-// sorting-method: "normal";
+sort: true;
+sorting-method: "normal";
 /*	case-sensitive: false;*/
 /*	case-smart: false;*/
 /*	cycle: true;*/
