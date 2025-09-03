@@ -19,9 +19,9 @@ touch /home/$USER/.config/hypr/hypridle.conf
 touch /home/$USER/.config/hypr/hyprlock.conf
 touch /home/$USER/.config/hypr/hyprpaper.conf
 touch /home/$USER/.config/electron-flags.conf
-echo "--enable-features=UseOzonePlatform\n--ozone-platform=wayland" >> /home/$USER/.config/electron-flags.conf
+echo -e "--enable-features=UseOzonePlatform\n--ozone-platform=wayland" >> /home/$USER/.config/electron-flags.conf
 
 mkdir /home/$USER/Pictures/backgrounds -pv
 
-mkdir /usr/share/zsh-themes -pv
-mkdir /usr/share/zsh-plugins -pv
+sudo mkdir /usr/share/zsh-themes -pv
+sudo mkdir /usr/share/zsh-plugins -pv
