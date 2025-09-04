@@ -23,6 +23,7 @@
 
     "modules-right": [
 
+		"idle_inhibitor",
         "power-profiles-daemon",
 	    "tray",
         "backlight",
@@ -95,15 +96,18 @@
 
         "justify": "center",
         "states": {
+
             "good": 95,
-            "warning": 30,
+            "warning": 40,
             "critical": 15
         },
+	"events": {
 
-"on-discharging-warning": "dunstify 'Low battery, plug into the AC adapter' && brightnessctl set 30%",
-        "format": "{capacity}% {icon}",
+		"on-discharging-warning": "/home/arthur/.config/waybar/battery.sh"
+	},
+		"format": "{capacity}% {icon}",
         "format-plugged": "{capacity}% 󱐋 ",
-"format-charging": "{capacity}%  󱐋 ",
+		"format-charging": "{capacity}%  󱐋 ",
         "format-icons": [" 󱊡 ", " 󱊢 ", " 󱊣 "]
     },
 
@@ -160,6 +164,22 @@
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
+
+	"idle_inhibitor" {
+
+		"format": "{icon}",
+        "tooltip-format-activated": "Suspensão Bloqueada",
+        "tooltip-format-deactivated": "Permitindo Suspensão",
+
+	    "format-icons": {
+
+		    "activated": "",
+		    "deactivated": ""
+	},
+
+	"timeout": 30.5
+
+},
 
     "custom/power": {
 
