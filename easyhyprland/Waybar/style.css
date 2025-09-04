@@ -319,13 +319,26 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    padding-right: 12px;
+    padding-left: 9px;
+    color: black;
 }
 
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
+
+    color: #B23A48;
 }
+
+#idle_inhibitor.deactivated {
+
+    color: green;
+}
+
+#idle_inhibitor:hover {
+
+     background-color: rgba(255,255,255, 0.6);
+}
+
 
 #mpd {
     background-color: #66cc99;
