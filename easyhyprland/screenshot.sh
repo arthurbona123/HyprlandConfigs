@@ -1,11 +1,11 @@
 #!/usr/bin/zsh
 
-if (grim -g "$(slurp -d)"): then
+if (grim -g "$(slurp -d)"); then
 
-dunstify "The screenshot are saved in '/home/$(echo $USER)/'"
+    dunstify "The screenshot are saved in '/home/$(echo $USER)/'"
 
 else 
 
-break
+    break
 
 fi
