@@ -1,4 +1,4 @@
-env = AQ_DRM_DEVICES, /dev/dri/card1:/dev/dri/card0
+env = AQ_DRM_DEVICES, /dev/dri/card1:/dev/dri/card0 or env = AQ_DRM_DEVICES, /dev/dri/card1:/dev/dri/card2 (olhe em /dev/dri/by-path para ver o numero do link simbólico relacionado a ambas as placas de vídeo do sistema hybrid graphics.
 
 env = LIBVA_DRIVER_NAME, nvidia
 
