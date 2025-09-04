@@ -11,6 +11,11 @@ lsp-plugins flatpak firefox kitty udiskie nemo hyprshot hyprland-protocols fuse 
 
 flatpak install steam mangohud obsidian flatseal
 
+wget -4 https://us.download.nvidia.com/XFree86/Linux-x86_64/580.82.07/NVIDIA-Linux-x86_64-580.82.07.run
+
+chmod +x NVIDIA-Linux-x86_64-580.82.07.run
+./NVIDIA-Linux-x86_64-580.82.07.run
+
 wget -4 https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.13.0/ProtonUp-Qt-2.13.0-x86_64.AppImage
 wget -4 https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.17.2/Heroic-2.17.2-linux-x86_64.AppImage
 wget -4 https://github.com/PCSX2/pcsx2/releases/download/v2.4.0/pcsx2-v2.4.0-linux-appimage-x64-Qt.AppImage
