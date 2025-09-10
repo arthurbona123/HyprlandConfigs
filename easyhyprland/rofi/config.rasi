@@ -1,7 +1,7 @@
 configuration {
 modes: "window,drun";
-font: "Cascadia Nerd Font Mono 12";
-/*	location: 0;*/
+font: "Cascadia Nerd Font Mono 13";
+location: 0;
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
@@ -46,7 +46,7 @@ sorting-method: "normal";
 /*	tokenize: true;*/
 /*	m: "-5";*/
 /*	filter: ;*/
-/*	dpi: -1;*/
+dpi: 1;
 /*	threads: 0;*/
 /*	scroll-method: 0;*/
 /*	window-format: "{w}    {c}   {t}";*/
