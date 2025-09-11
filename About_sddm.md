@@ -1,0 +1,3 @@
+Em /usr/lib/sddm/sddm.conf.d, coloque o arquivo themes.conf, deixe em branco as configurações de temas no default.conf, e troque a flag de Server para "wayland", e o comando do compositor para "weston --shell=kiosk".
+
+Em /usr/share/sddm/themes/silent/, mude o arquivo de tema do sddm em metadata.desktop, comentando a linha "; ConfigFile = default conf", e descomentando algum outro tema diferente do default.conf (ex. silvia.conf).
