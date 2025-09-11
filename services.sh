@@ -6,6 +6,7 @@ systemctl enable bluetooth.service
 systemctl enable cups
 systemctl enable swayosd-libinput-backend.service
 systemctl enable dhcpcd
+systemctl enable tlp
 
 systemctl start iwd.service
 systemctl start bluetooth.service
