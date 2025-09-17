@@ -1,6 +1,6 @@
 configuration {
 modes: "window,drun";
-font: "Cascadia Nerd Font Mono 13";
+font: "Cascadia Nerd Font Mono 14";
 location: 0;
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
@@ -26,7 +26,7 @@ icon-theme: "Papirus";
 /*	drun-categories: ;*/
 /*	drun-exclude-categories: ;*/
 /*	drun-show-actions: false;*/
-drun-display-format: "{name} [<span weight='light' size='medium'><i>({generic})</i></span>]";
+// drun-display-format: "{name} [<span weight='light' size='medium'><i>({generic})</i></span>]";
 /*	drun-url-launcher: "xdg-open";*/
 /*	disable-history: false;*/
 /*	ignored-prefixes: "";*/
@@ -41,12 +41,12 @@ sorting-method: "normal";
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
-/*	combi-modes: "window,run";*/
+combi-modes: "window,run";
 /*	matching: "normal";*/
 /*	tokenize: true;*/
 /*	m: "-5";*/
 /*	filter: ;*/
-dpi: 1;
+dpi: 80;
 /*	threads: 0;*/
 /*	scroll-method: 0;*/
 /*	window-format: "{w}    {c}   {t}";*/
