@@ -6,8 +6,8 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-yay -S google-chrome pycharm-community-edition code epson-inkjet-printer-escpr sonobus reaper sddm-silent-theme fontbase flatseal ttf-cascadia-nerd ttf-bree-serif sane-airscan
-lsp-plugins flatpak firefox kitty udiskie nemo hyprshot hyprland-protocols fuse gcc cmake make qt5ct qt6ct kvantum iwgtk hyprpolkitagent dhcpcd drawing inkscape skanlite gimp vlc virtualbox libreoffice-fresh codeblocks hwinfo vi vim evince cups cups-browsed pavucontrol blueman brightnessctl copyq mysql gamemode qjackctl pipewire-jack zsh openrgb waybar hypridle hyprlock hyprpaper nwg-bar nwg-look nwg-icon-picker rofi gwenview easyeffects tlp tlpui nvidia-settings nvtop preload weston
+yay -S google-chrome brave-bin pycharm-community-edition code epson-inkjet-printer-escpr sonobus reaper sddm-silent-theme fontbase flatseal ttf-cascadia-nerd ttf-bree-serif sane-airscan
+lsp-plugins flatpak firefox kitty udiskie nemo hyprshot hyprland-protocols fuse gcc cmake make qt5ct qt6ct kvantum iwgtk hyprpolkitagent dhcpcd drawing inkscape skanlite gimp vlc virtualbox libreoffice-fresh codeblocks hwinfo vi vim evince cups cups-browsed pavucontrol blueman brightnessctl copyq mysql gamemode qjackctl pipewire-jack zsh openrgb waybar hypridle hyprlock hyprpaper nwg-bar nwg-look nwg-icon-picker rofi gwenview easyeffects tlp tlpui nvidia-settings nvtop preload weston linux-lts linux-lts-headers
 
 flatpak install steam mangohud obsidian flatseal
 
