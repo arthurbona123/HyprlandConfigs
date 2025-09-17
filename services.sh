@@ -14,3 +14,4 @@ systemctl stop NetworkManager
 systemctl start cups
 systemctl start swayosd-libinput-backend.service
 systemctl start dhcpcd
+systemctl start tlp
