@@ -41,7 +41,7 @@ sorting-method: "normal";
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
-combi-modes: "window,run";
+combi-modes: "window,drun";
 /*	matching: "normal";*/
 /*	tokenize: true;*/
 /*	m: "-5";*/
